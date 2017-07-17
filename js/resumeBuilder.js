@@ -48,7 +48,7 @@ var education = {
             "degree": "Bachelor of Science",
             "dates": "1983 - 1988",
             "location": "Atlanta, Georgia",
-            "major": ["Electrical Engineering"],
+            "majors": ["Electrical Engineering"],
             "url": "http://www.gatech.edu/"
         },
         {
@@ -56,7 +56,7 @@ var education = {
             "degree": "Bachelors",
             "dates": "1995 - 1998",
             "location": "College Park, Maryland",
-            "major": ["Computer and Information Science"],
+            "majors": ["Computer and Information Science"],
             "url": "http://www.umuc.edu/"
         }
     ],
