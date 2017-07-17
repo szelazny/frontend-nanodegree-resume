@@ -76,9 +76,9 @@ var education = {
                     formattedschoolLocation = HTMLschoolLocation.replace("%data%", education.schools[school].location),
                     formattedschoolMajor = "";
 
-                for (var major in education.schools[school].major) {
-                    if (education.schools[school].major.hasOwnProperty(major)) {
-                        formattedschoolMajor = HTMLschoolMajor.replace("%data%", education.schools[school].major[major]);
+                for (var majors in education.schools[school].majors) {
+                    if (education.schools[school].majors.hasOwnProperty(majors)) {
+                        formattedschoolMajor = HTMLschoolMajor.replace("%data%", education.schools[school].majors[majors]);
                     }
                 }
 
@@ -192,6 +192,8 @@ var projects = {
 };
 
 
+
+//$("#main").append(internationalizeButton);
 function inName(name) {
     if (!name) {
         name = bio.name;
